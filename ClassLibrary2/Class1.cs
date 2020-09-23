@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary2
 {
-    public class Class1
+    public static class Class1
     {
+        public static void Print()
+        {
+            Console.Write("dajsdlad");
+        }
     }
 }
